@@ -362,11 +362,17 @@ Teleport:Button("Shop", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
 end)
 
-Teleport:InfoLabel("Train Area")
+Teleport:InfoLabel("Misc")
+
+Teleport:Button("Teleport Area", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(4, 106, -52)
+end)
 
 Teleport:Button("Start Race", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-18, 106, 15)
 end)
+
+Teleport:InfoLabel("Train Area")
 
 Teleport:Button("Chest Area", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(15, 99, 66)
