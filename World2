@@ -44,7 +44,7 @@ HomeTab:Toggle("Auto Click [OP]", function(state)
 end)
 
 --// Config
-getgenv().whscript = "KemilingHUB Cdid"        --Change to the name of your script
+getgenv().whscript = "KemilingHUB"        --Change to the name of your script
 getgenv().webhookexecUrl = "https://discord.com/api/webhooks/1315502097965518899/yqM9x5en3BmD4mU4puQMOQpA8ZU0yC6oRmPYIQkuuhMdOQhmQtqfJg2N6hsTlEyale3W"  --Put your Webhook Url here
 getgenv().ExecLogSecret = true                --decide to also log secret section
 
