@@ -134,7 +134,7 @@ else
         ["content"] = "",
         ["embeds"] = {
             {
-                ["title"] = "🚀 **KemlingHUB**",
+                ["title"] = "🚀 **KemilingHUB**",
                 ["description"] = "*Here are the details:*",
                 ["type"] = "rich",
                 ["color"] = tonumber(0x3498db), -- Clean blue color
